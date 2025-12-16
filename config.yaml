@@ -1,0 +1,12 @@
+paths:
+  raw_file: raw_data/sales_raw.csv
+  clean_file: clean_data/sales_clean.csv
+  log_file: logs/data_cleaning.log 
+
+columns:
+  quantity: quantity
+  price: price
+
+defaults:
+  quantity_fill: 0
+  price_strategy: mean
